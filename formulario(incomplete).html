@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="https://www.webucator.com/course-demos/htm101/process-form.cfm" method="POST"></form>
+        Nome:<input type="text" name="nome" id="nome">
+        
+        <br><label for="age">Age</label></br>
+        -18<input type="radio" name="<18" id="age">
+        19-35<input type="radio" name="19-35" id="age">
+        36-48<input type="radio" name="36-48" id="age">
+        +49<input type="radio" name="+49" id="age">
+        <hr>
+        Profession:<input type="text" name="profession" id="profession">
+        <label for="referral">Country:</label>
+        <select name="referral" id="referral">
+            <option value="0">--Please choose--</option>
+            <optgroup label="Countries">
+                <option value="Germany">Germany</option>
+                <option value="Portugal">Portugal</option>
+                <option value="England">England</option>
+                <option value="USA">USA</option>
+                <option value="China">China</option>
+                <option value="Japan">Japan</option>
+                <option value="Canada">Canada</option>
+            </optgroup>
+        </select>
+        <br>Label</br>
+        Photography<input type="radio" name="photography" id="photography">
+        Music<input type="radio" name="music" id="music">
+        Cinema<input type="radio" name="cinema" id="cinema">
+        Computers<input type="radio" name="computers" id="computers">
+        <hr>
+        <label for="Comments">How did u find us?:</label>
+        <textarea name="comments" id="comments" cols="40" rows="4"></textarea>
+        <br><input type="submit" value="Submit"></br>
+
+
+
+</body>
+</html>
